@@ -26,26 +26,3 @@
                  
                  Depend How your Terminal Software is handling that.
                  
-  Wiring Layout
- 
-  Parallel Port Output               Arduino Input
-  
-  --------------------               -------------
-  
-  Name      Dir.   Pin                Name    Pin
-  
-  ----      ----   ---                ----    ---
-  
-  nSTROBE    >       1................INT0      2 (as interupt)
-  
-  DATA BYTE  >     2-9.......................3-10    
-  
-  nACK       <      10.........................11
-  
-  BUSY       <      11.........................12
-  
-  OutofPaper <      12................GND
-  
-  Selected   <      13.................5v
-  
-  GND        <>  18-25................GND
